@@ -1,0 +1,80 @@
+/* variables */
+
+:root{
+    --clr-yellow: #fbffa7;
+    --clr-orange:#ff764d;
+    --clr-blueviolet:#b1c5ff;
+    --clr-violet:#d5b3ff;
+    --clr-green:#b6ffc0;
+    --clr-blue:#0000ff;
+}
+
+
+/* General rules */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+img{
+    width: 30rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 3px 0px grey;
+}
+
+.grupo-1{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem ;
+}
+
+.grupo-1 img{
+    width: 5rem;
+}
+
+.try{
+    color: var(--clr-blue);
+    font-size: 1.1rem;
+}
+
+.grupo-2{
+    align-items: center;
+}
+
+/* About-jobs */
+
+.about-jobs{
+    padding-left: 2rem;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
